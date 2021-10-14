@@ -5,3 +5,38 @@
 @import url(content_portfolio.css) screen;
 @import url(content_team.css) screen;
 @import url(footer.css) screen;
+@import url(fonts.css) screen;
+
+
+body {
+    --mainColor: hsl(43deg 37% 96%);
+    --mainColor_green: hsl(170deg 100% 38%);
+
+    margin: 0;
+}
+.bouncy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.text {
+    font-family: "OpenSans";
+    font-size: 16px;
+    color: var(--mainColor);
+    text-align: center;
+    width: 60vmin;
+    display: inline-block;
+    position: relative;
+    top: 36vmin;
+}
+h1 {
+    display: inline-block;
+    width: 43vmin;
+    font-family: "SourceSans";
+    font-size: 35px;
+    color: var(--mainColor);
+    letter-spacing: 0.75vmin;
+    text-align: center;
+    position: relative;
+    top: 36vmin;
+}

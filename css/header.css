@@ -1,0 +1,87 @@
+.text {
+    font-family: "OpenSans";
+    font-size: 16px;
+    color: var(--mainColor);
+    text-align: center;
+    width: 60vmin;
+    display: inline-block;
+    position: relative;
+    top: 36vmin;
+}
+h1 {
+    display: inline-block;
+    width: 43vmin;
+    font-family: "SourceSans";
+    font-size: 35px;
+    color: var(--mainColor);
+    letter-spacing: 0.75vmin;
+    text-align: center;
+    position: relative;
+    top: 36vmin;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/titleimage.jpg);
+    background-size: 100% auto;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vmin;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 4vmin;
+    color: var(--mainColor);
+    align-items: center;
+}
+.logo {
+    display: inline-block;
+    width: 12vmin;
+    font-family: "BigJohn";
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+    left: 7%;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    height: 4vmin;
+    width: 80vmin;
+    font-family: "OpenSans";
+    font-size: 16px;
+    position: relative;
+    right: 11vmin;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu div {
+    text-align: center;
+    height: 2vmin;
+    margin: 0 25px;
+}
+.menu div:hover {
+    display: inline-block;
+    border: 2px var(--mainColor) solid;
+    border-radius: 50px;
+    padding: 4px 10px;
+    margin: 0 12.5px;
+}
+.pointer {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: var(--mainColor_green);
+    position: absolute;
+    bottom: 12vmin;
+    font-family: "Pe-icon7";
+    color: var(--mainColor);
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
