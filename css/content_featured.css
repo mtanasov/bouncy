@@ -1,0 +1,89 @@
+.featured {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color:  hsl(0deg 0% 100%);
+    color: hsl(240deg 2% 65%);
+    height: 80vh;
+}
+.featuredText {
+    display: inline-block;
+    position: relative;
+    width: 55vh;
+    color: var(--mainColorText);
+    top: 5vh;
+    text-align: center;
+}
+
+.featured_image {
+    display: flex;
+    height: 47vh;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: relative;
+    top: 13vh;
+}
+.image1,.image2,.image3 {
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.image2,.image3 {
+    width: 25%;
+}
+.image1 {
+    width: 50%;
+}
+.image1 {
+    background-image: url(/image/featured/one.jpg);    
+}
+.image2 {
+    background-image: url(/image/featured/two.jpg);
+    background-size: 157% auto;
+    background-position: -150px 0;
+}
+.image3 {
+    background-image: url(/image/featured/three.jpg);
+    background-size: 138% auto;
+    background-position: -150px 0;
+}
+
+.featuredFooter {
+    display: inline-block;
+    position: relative;
+    top: 13vh;
+    height: 17vh;
+    width: 90%;
+    background-image: url(/image/featured/locations.jpg);
+    background-size: 100% auto;
+    background-position: 0 280px;
+}
+.featuredFooter:hover {
+    background: var(--mainColor_green);
+}
+.featuredFooter .text {
+    display: inline-block;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    position: relative;
+    top: 7vh;
+    font-size: 20px;
+    letter-spacing: 0.4vmin;
+    color: var(--mainColor);
+}
+.buttonFeatured a:hover {
+    border: 2px var(--mainColor) solid;
+    border-radius: 50px;
+}
+.button a {
+    text-decoration: none;
+    color: var(--mainColor);
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    top: 6.5vh;
+    padding: 1vh 2.2vh;
+}
