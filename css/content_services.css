@@ -1,0 +1,106 @@
+.services {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color:  hsl(0deg 0% 100%);
+    color: hsl(240deg 2% 65%);
+    height: 87.5vh;
+}
+.services .text {
+    display: inline-block;
+    position: relative;
+    width: 55vh;
+    color: var(--mainColorText);
+    top: 7vh;
+    text-align: center;
+}
+.ourService3in1 {
+    display: flex;
+    position: relative;
+    top: 11vh;
+    height: 33vh;
+    width: 100vw;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.iconservice {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 30vh;
+    width: 1vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    left: 5vw;
+}
+.graphicDes {
+    display: inline-flex;
+    position: relative;
+    width: 19vw;
+    color: var(--mainColorH);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    top: 1.5vh;
+    left: -3vh;
+}
+.titleGraph {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--mainColorH);
+    position: relative;
+    top: 1.5vh;
+}
+.graphDesText {
+    position: relative;
+    line-height: 28px;
+    top: 4.5vh;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--mainColorText);
+}
+.graphDesText2 {
+    font-size: 14px;
+    position: relative;
+    top: 8vh;
+    line-height: 23px;
+    color: var(--mainColorText);
+}
+.schedule {
+    display: flex;
+    width: 80vmin;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.schedule div {
+    display: inline-block;
+    height: 20vh;
+    width: 20vh;
+    text-align: center;
+    background: radial-gradient(at top red 20%, black 80%);
+    border: 7px var(--mainColor_green) solid;
+    /*border-image: linear-gradient( var(--mainColor_green) 80% , var(--mainColorH) 20%) ; */
+    border-radius: 12vmin;
+    font-size: 25px;
+}
+
+
+.schedule div::before {}
+.schedule div::after {}
+
+.schedule:nth-child(1) {}
+.schedule:nth-child(1)::before {}
+.schedule:nth-child(1)::after {}
+.schedule:nth-child(2) {}
+.schedule:nth-child(2)::before {}
+.schedule:nth-child(2)::after {}
+.schedule:nth-child(3) {}
+.schedule:nth-child(3)::before {}
+.schedule:nth-child(3)::after {}

@@ -5,7 +5,7 @@
     align-items: center;
     background-color:  hsl(0deg 0% 100%);
     color: hsl(240deg 2% 65%);
-    height: 80vh;
+    height: 87.5vh;
 }
 .featuredText {
     display: inline-block;
@@ -50,7 +50,7 @@
     background-position: -150px 0;
 }
 
-.featuredFooter {
+.featuredFooter { /*задать размытие на кеды*/
     display: inline-block;
     position: relative;
     top: 13vh;
@@ -76,7 +76,7 @@
 }
 .buttonFeatured a:hover {
     border: 2px var(--mainColor) solid;
-    border-radius: 50px;
+    
 }
 .button a {
     text-decoration: none;
@@ -84,6 +84,9 @@
     font-size: 16px;
     display: inline-block;
     position: relative;
-    top: 6.5vh;
+    left: -3vw;
+    top: 7vh;
     padding: 1vh 2.2vh;
+    border-radius: 50px;
+    border: 2px transparent solid;
 }

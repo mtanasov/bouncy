@@ -6,7 +6,7 @@
 @font-face {font-family: "SourceSans";src: url(/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);}
 
 
-h3,.menu,.text,.button a/*,.detailsText1,.headerText,.featuredText*/ {
+h3,.graphDesText2,.menu,.text,.graphDesText,.titleGraph,.button a/*,.detailsText1,.headerText,.featuredText*/ {
     font-family: "OpenSans";
 }
 h1,h2 {
