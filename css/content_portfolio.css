@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 100%;
-    height: 170vh;
+    width: 100vw;
+    height: 148.8vh;
     align-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
+    background-color: hsl(0deg 0% 95%);
 }
 .portfolio .text {
     display: inline-block;
@@ -16,24 +17,157 @@
     top: 7vh;
     text-align: center;
 }
+.portfolioMenu div {
+    color: var(--mainColorText);
+}
 .portfolioMenu {
     display: flex;
+    width: 80vw;
+    height: 2.5vh;
     position: relative;
     top: 10vmin;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
 }
 .galery {
     display: flex;
-    height: 110vh;
-    width: 86vw;
-    background-color: violet;
+    height: 94.5vh;
+    width: 57.5vw;
     position: relative;
     top: 15vh;
+    gap: 1.2vmin;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
+.galeryGroup1 div,.galeryGroup2 div,.galeryGroup3 div,.galeryGroup4 div {
+    display: inline-block;
+    width: 27vmin;
+}
+.galeryGroup1,.galeryGroup2,.galeryGroup3,.galeryGroup4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1.2vmin;    
+    height: 92vh;
+    width: 27vmin;
+}
+.image11 {
+    height: 36vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img11.png);
+    background-size: 100% auto;
+}
+.image21 {
+    height: 36vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img21.png);
+    background-size: 100% auto;
+}
+.image31 {
+    height: 21vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img31.png);
+    background-size: 100% auto;
+}
+.image12 {
+    height: 22.5vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img12.png);
+    background-size: 100% auto;
+}
+.image22 {
+    height: 34vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img22.png);
+    background-size: 100% auto;
+}
+.image32 {
+    height: 36vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img32.png);
+    background-size: 100% auto;
+}
+.image13 {
+    height: 30vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img13.png);
+    background-size: 100% auto;
+}
+.image23 {
+    height: 37vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img23.png);
+    background-size: 100% auto;
+}
+.image33 {
+    height: 25vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img33.png);
+    background-size: 100% auto;
+}
+.image14 {
+    height: 36vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img14.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.image24 {
+    height: 27vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img24.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.image34 {
+    height: 30vmin;
+    background-color: wheat;
+    background-image: url(/image/portfolio/img34.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+/*.galeryGroup4 {
+    height: 92vmin;
+}*/
 .portfolioFooter {
     display: flex;
     position: relative;
     top: 18vh;
     height: 20vh;
-    width: 86vw;
-    background-color: aqua;
+    width: 56.5vw;
+    background-image: url(/image/Layer\ 101.png);
+    flex-direction: column;
+    align-items: center;
 }
+.portfolioFooter .text span {
+    color: var(--mainColor);
+}
+.portfolioFooter .text {
+    width: 30vw;
+    height: 3vh;
+    color: var(--mainColor);
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    height: 3vh;
+    width: 7vw;
+    position: relative;
+    border: 2px transparent solid;
+    text-decoration: none;
+    top: 8vh;
+    text-align: center;
+    padding-top: 0.5vh;
+    color: var(--mainColor);
+    border-radius: 50px;
+}
+.button:hover {
+    border: 2px var(--mainColor) solid;
+}
+
+

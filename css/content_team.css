@@ -1,0 +1,151 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 85vmin;
+    align-items: center;
+    
+}
+.team .text {
+    display: inline-block;
+    position: relative;
+    width: 55vh;
+    color: var(--mainColorText);
+    top: 7vh;
+    text-align: center;
+}
+.photo {
+    display: inline-block;
+    width: 30vh;
+    height: 36vh;
+    position: relative;
+    background-image: url(/image/Layer\ 103.png);
+    top: 13vh;
+    left: -30vw;
+}
+.executor {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    top: -19vh;
+    left: 30vw;
+    color: var(--mainColorH);
+}
+.position {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    top: -19vh;
+    left: 29.2vw;
+    font-style: italic;
+    text-transform: uppercase;
+    color: var(--mainColorH);
+}
+.greenI {
+    display: inline-block;
+    position: relative;
+    width: 0.25vw;
+    height: 5.5vh;
+    top: -24vh;
+    left: 37vw;
+    background-color: var(--mainColor_green);
+}
+.description {
+    font-size: 14px;
+    color: var(--mainColorText);
+    display: inline-block;
+    position: relative;
+    height: 5vh;
+    width: 18vw;
+    top: -22vh;
+    left: 25vw;
+    text-align: right;
+}
+.graph div {
+    display: inline-block;
+    position: relative;
+    height: 0.5vh;
+    width: 100%;    
+}
+.graph {
+    display: flex;
+    height: 15.5vh;
+    width: 27vw;
+    position: relative;
+    top: -17.5vh;
+    right: -20.7vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.branding::before {
+    display: inline;
+    content: "BRANDING";
+    height: 1vh;
+    position: relative;
+    top: -2.2vh;
+}
+.branding::after {
+    display: inline;
+    content: "80%";
+    height: 1vh;
+    position: relative;
+    top: -2.3vh;
+    right: -21.8vw;
+}
+.webDesing::before {
+    display: inline;
+    content: "WEB DESING";
+    height: 1vh;
+    position: relative;
+    top: -2.3vh;
+}
+.webDesing::after {
+    display: inline;
+    content: "65%";
+    height: 1vh;
+    position: relative;
+    top: -2.3vh;
+    right: -21.2vw;
+}
+.ui::before {
+    display: inline;
+    content: "USER INTERFACE";
+    height: 1vh;
+    position: relative;
+    top: -2.3vh;
+}
+.ui::after {
+    display: inline;
+    content: "75%";
+    height: 1vh;
+    position: relative;
+    top: -2.3vh;
+    right: -19.8vw;
+}
+.branding {
+    background-image: linear-gradient(90deg,var(--mainColor_green) 80%, var(--mainColor) 20%);
+}
+.webDesing {
+    background-image: linear-gradient(90deg,var(--mainColor_green) 65%, var(--mainColor) 35%);
+}
+.ui {
+    background-image: linear-gradient(90deg,var(--mainColor_green) 75%, var(--mainColor) 25%);
+}
+.scrol {
+    display: inline-block;
+    position: relative;
+    top: -1vh;
+}
+.scrol span:hover {
+    background-color: var(--mainColor_green);
+}
+.scrol span {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border: 2px var(--mainColor_green) solid;
+    border-radius: 15px;
+    position: relative;
+    top: 0vh;
+}

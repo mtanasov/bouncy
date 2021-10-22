@@ -19,7 +19,7 @@ h1 {
 }
 .header {
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(/image/titleimage.jpg);
     background-size: 100% auto;

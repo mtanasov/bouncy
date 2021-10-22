@@ -1,0 +1,43 @@
+.footer {
+    background-image: url(/image/Layer\ 104.png);
+    background-size: 100% auto;
+    display: flex;
+    height: 23vh;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.footerText {
+    display: inline-block;
+    position: relative;
+    width: 55vh;
+    color: var(--mainColorText);
+    top: 7vh;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footerButton a:hover {
+    border: 2px var(--mainColorH) solid;
+}
+.footerButton a {
+    display: inline-block;
+    color: var(--mainColorText);
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    top: 12vh;
+    border: 2px transparent solid;
+    border-radius: 25px;
+    height: 2.4vh;
+    width: 7vw;
+    text-align: center;
+}
+.footerButton  {
+    display: inline-block;
+    color: var(--mainColorText);
+    font-weight: 700;
+    
+
+}

@@ -1,11 +1,11 @@
 .featured {
     display: flex;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     background-color:  hsl(0deg 0% 100%);
     color: hsl(240deg 2% 65%);
-    height: 87.5vh;
+    height: 92.5vh;
 }
 .featuredText {
     display: inline-block;
@@ -18,8 +18,8 @@
 
 .featured_image {
     display: flex;
-    height: 47vh;
-    width: 90%;
+    height: 52vh;
+    width: 100vw;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -34,7 +34,8 @@
     width: 25%;
 }
 .image1 {
-    width: 50%;
+    width: 50vw;
+    background-size: 100% auto;
 }
 .image1 {
     background-image: url(/image/featured/one.jpg);    
@@ -43,6 +44,7 @@
     background-image: url(/image/featured/two.jpg);
     background-size: 157% auto;
     background-position: -150px 0;
+    position: relative;
 }
 .image3 {
     background-image: url(/image/featured/three.jpg);
@@ -55,7 +57,7 @@
     position: relative;
     top: 13vh;
     height: 17vh;
-    width: 90%;
+    width: 100vw;
     background-image: url(/image/featured/locations.jpg);
     background-size: 100% auto;
     background-position: 0 280px;
@@ -74,11 +76,10 @@
     letter-spacing: 0.4vmin;
     color: var(--mainColor);
 }
-.buttonFeatured a:hover {
-    border: 2px var(--mainColor) solid;
-    
+.buttonFeatured:hover {
+    border: 2px var(--mainColor) solid;    
 }
-.button a {
+.buttonFeatured {
     text-decoration: none;
     color: var(--mainColor);
     font-size: 16px;
