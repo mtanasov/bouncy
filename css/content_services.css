@@ -1,11 +1,11 @@
 .services {
     display: flex;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     background-color:  hsl(0deg 0% 100%);
     color: hsl(240deg 2% 65%);
-    height: 87.5vh;
+    height: 59vh;
 }
 .services .text {
     display: inline-block;
@@ -81,14 +81,22 @@
 
 .schedule div {
     display: inline-block;
-    height: 20vh;
-    width: 20vh;
+    height: 18vh;
+    width: 18vh;
     text-align: center;
     background: radial-gradient(at top red 20%, black 80%);
     border: 7px var(--mainColor_green) solid;
     /*border-image: linear-gradient( var(--mainColor_green) 80% , var(--mainColorH) 20%) ; */
     border-radius: 12vmin;
     font-size: 25px;
+}
+.greenLine {
+    display: inline-block;
+    height: 0.4vmin;
+    width: 100%;
+    background-color: var(--mainColor_green);
+    position: relative;
+    bottom: -15vh;
 }
 
 

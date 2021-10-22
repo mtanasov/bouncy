@@ -1,0 +1,39 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 170vh;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.portfolio .text {
+    display: inline-block;
+    position: relative;
+    width: 55vh;
+    color: var(--mainColorText);
+    top: 7vh;
+    text-align: center;
+}
+.portfolioMenu {
+    display: flex;
+    position: relative;
+    top: 10vmin;
+}
+.galery {
+    display: flex;
+    height: 110vh;
+    width: 86vw;
+    background-color: violet;
+    position: relative;
+    top: 15vh;
+}
+.portfolioFooter {
+    display: flex;
+    position: relative;
+    top: 18vh;
+    height: 20vh;
+    width: 86vw;
+    background-color: aqua;
+}
