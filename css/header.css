@@ -57,29 +57,45 @@ h1 {
     justify-content: space-around;
     align-items: center;
 }
-.menu div {
+.menu a {
     text-align: center;
     border: 2px transparent solid;
     border-radius: 50px;
-    /*height: 2vmin;
-    margin: 0 25px;*/
+    padding: 0.7vh 1vw;
+    text-decoration: none;
+    color: var(--mainColor);
 }
-.menu div:hover {
+.menu a:hover {
     display: inline-block;
     height: auto;
     width: auto;
     border: 2px var(--mainColor) solid;
     border-radius: 50px;
+    
 }
-.pointer {
+.pointer a:hover{
+    animation: 2s anim ease-in-out infinite;
+}
+.pointer a {
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 50px;
     background-color: var(--mainColor_green);
     position: absolute;
     bottom: 12vmin;
     font-family: "Pe-icon7";
     color: var(--mainColor);
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     padding: 10px;
+    text-decoration: none;
+    transition: 0.65s ease-in;
+}
+
+@keyframes anim {
+    50% {
+        color: var(--mainColor_green);
+    }
+    100% {
+        color: var(--mainColor);
+    }
 }

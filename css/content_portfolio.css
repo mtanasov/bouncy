@@ -56,6 +56,49 @@
     height: 92vh;
     width: 27vmin;
 }
+.imgGal:hover::before {
+    content: "TITLE HERE";
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0deg 0% 0% / 60%);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "SourceSans";
+    font-weight: 700;
+    letter-spacing: 9px;
+    color: var(--mainColor_green);
+}
+.imgGal:hover::after {
+    content: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium";
+    color: var(--mainColorText);
+    display: flex;
+    width: 11vw;
+    position: relative;
+    top: -14vh;
+    left: 2vw;
+    font-family: "OpenSans";
+    font-size: 14px;
+}
+/*
+content: "BRANDING";
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0deg 0% 0% / 80%);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "SourceSans";
+    font-weight: 700;
+    letter-spacing: 9px;
+*/
+
+
+
 .image11 {
     height: 36vmin;
     background-color: wheat;

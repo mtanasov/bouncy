@@ -10,6 +10,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    scroll-behavior: smooth;
 }
 body {
     --mainColor: hsl(43deg 37% 96%);
@@ -18,12 +19,30 @@ body {
     --mainColorText: hsl(240deg 1% 58%);
     --mainColorTextBold: hsl(240deg 1% 45%);
     margin: 0;
+    overflow-x:hidden;
+    cursor: url(/image/cursor.png), pointer;
+}
+::selection {
+    background: var(--mainColor_green);
+}
+::-webkit-scrollbar { 
+    width: 10px; 
+    background-color: var(--mainColorTextBold);
+}
+::-webkit-scrollbar-track { 
+    background-color: var(--mainColor_green);
+}
+::-webkit-scrollbar-thumb { 
+    width: 10px;
+    border: 3px var(--mainColorTextBold) solid;
+    border-radius: 50px;
+    background-color: var(--mainColor);
 }
 .bouncy {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100vh;
+    height: 100vh;    
 }
 .icon:hover {
     background-color: var(--mainColor_green);

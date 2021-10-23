@@ -65,3 +65,26 @@ h3 {
     font-size: 20px;
     color: var(--mainColorH);
 }
+.upSite a:hover {
+    animation: none;
+}
+.upSite a {
+    text-decoration: none;
+    animation: 2s anim ease-in-out infinite;
+    color: var(--mainColor);
+}
+.upSite {
+    display: inline-block;
+    position: fixed;
+    border-radius: 50px;
+    background-color: var(--mainColor_green);
+    bottom: 4vmin;
+    font-family: "Pe-icon7";
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    right: 4vw;
+    z-index: 1;
+    transition: 0.65s ease-in;
+
+}
