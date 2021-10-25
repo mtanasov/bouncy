@@ -38,7 +38,7 @@
     background-size: 100% auto;
 }
 .image1 {
-    background-image: url(/image/featured/one.jpg);    
+    background-image: url(../image/featured/one.jpg);    
 }
 .image2:hover::before {
     content: "VINTAGE";
@@ -58,7 +58,7 @@
     background-color: black;
 }
 .image2 {
-    background-image: url(/image/featured/two.jpg);
+    background-image: url(../image/featured/two.jpg);
     background-size: 157% auto;
     background-position: -150px 0;
     position: relative;
@@ -81,7 +81,7 @@
     filter: grayscale(100%);    
 }
 .image3 {
-    background-image: url(/image/featured/three.jpg);
+    background-image: url(../image/featured/three.jpg);
     background-size: 138% auto;
     background-position: -150px 0;
 }
@@ -92,7 +92,7 @@
     top: 13vh;
     height: 17vh;
     width: 100vw;
-    background-image: url(/image/featured/locations.png);
+    background-image: url(../image/featured/locations.png);
     background-size: auto 100%;
 }
 .featuredFooter:hover {

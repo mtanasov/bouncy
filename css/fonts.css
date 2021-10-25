@@ -1,9 +1,9 @@
-@font-face {font-family: "BigJohn";src: url(/fonts/BigJohn/BigJohnPROBold.ttf);}
-@font-face {font-family: "OpenSans";src: url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);}
-@font-face {font-family: "Roboto";src: url(/fonts/Roboto/Roboto-Light.ttf);}
-@font-face {font-family: "Pe-icon7";src: url(/fonts/Pe-icon-7-stroke.ttf);}
-@font-face {font-family: "SourceSans";src: url(/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf);}
-@font-face {font-family: "SourceSans";src: url(/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);}
+@font-face {font-family: "BigJohn";src: url(../fonts/BigJohn/BigJohnPROBold.ttf);}
+@font-face {font-family: "OpenSans";src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);}
+@font-face {font-family: "Roboto";src: url(../fonts/Roboto/Roboto-Light.ttf);}
+@font-face {font-family: "Pe-icon7";src: url(../fonts/Pe-icon-7-stroke.ttf);}
+@font-face {font-family: "SourceSans";src: url(../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf);}
+@font-face {font-family: "SourceSans";src: url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);}
 
 
 h3,.graphDesText2,.executor,.description,.menu,.text,.graphDesText,.titleGraph,.footerText,.footerButton a,.button a,.portfolioMenu div,.portfolioFooter .text,.button,.buttonFeatured /*,.detailsText1,.headerText,.featuredText*/ {

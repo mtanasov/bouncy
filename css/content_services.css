@@ -86,7 +86,6 @@
     text-align: center;
     background: radial-gradient(at top red 20%, black 80%);
     border: 7px var(--mainColor_green) solid;
-    /*border-image: linear-gradient( var(--mainColor_green) 80% , var(--mainColorH) 20%) ; */
     border-radius: 12vmin;
     font-size: 25px;
 }

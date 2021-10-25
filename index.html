@@ -3,6 +3,14 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/content_details.css">
+        <link rel="stylesheet" href="css/content_featured.css">
+        <link rel="stylesheet" href="css/content_services.css">
+        <link rel="stylesheet" href="css/content_portfolio.css">
+        <link rel="stylesheet" href="css/content_team.css">
+        <link rel="stylesheet" href="css/footer.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bouncy</title>
     </head>
@@ -12,13 +20,23 @@
                <div class="navbar">
                     <div class="logo">Bouncy</div>
                     <div class="menu">
-                        <a href="">Hello</a>
-                        <a href="">About</a>
-                        <a href="">Services</a>
-                        <a href="">Portfolio</a>
-                        <a href="">Team</a>
-                        <a href="">Blog</a>
-                        <a href="">Contact</a>
+                        <input type="checkbox" id="openwin">
+                        <label for="openwin"> Hello
+                            <!--<a class="keyHello" href="#chek">Hello</a>-->
+                            <div class="hello" id="chek"> 
+                                <h2>THIS IS <span>BOUNCY</span></h2>
+                                <div class="helloText">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                                </div>
+                                <div class="ipad"></div>
+                            </div>                        
+                        </label>
+                        <a href="#details">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#team">Team</a>
+                        <a href="#featured">Blog</a>
+                        <a href="#contact">Contact</a>
                     </div>
                 </div>    
                 <h1>WE ARE CODE CAFE</h1>
@@ -27,14 +45,14 @@
                     praesentium voluptatum
                 </div>
                 <div class="pointer">
-                    <a href="#details">&#xe688</a>  
+                    <a href="#footer">&#xe688</a>  
                 </div>
             </div>
-            <div id="details" class="content">
+            <div class="content">
                 <div class="upSite">
                     <a href="#header">&#xe682</a>
                 </div>
-                <div  class="details">
+                <div id="details"  class="details">
                     <h2 >DETAILS ABOUT BOUNCY</h2>
                     <div class="text detailsText1">
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -52,8 +70,8 @@
                     <div class="text detailsText3">
                         At  vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque <span class="textBold">corrupti quos</span> dolores et quas molestias excepturi sint occaecati cupiditate non rovident, <span class="textBold">similique</span> sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem r
                     </div>
-                    </div>
-                    <div class="featured">
+                </div>
+                <div  id="featured" class="featured">
                     <h2>FEATURED PROJECTS</h2>
                     <div class="text featuredText">
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
@@ -71,7 +89,7 @@
                         </a>                    
                     </div>
                 </div>
-                <div class="services">
+                <div id="services" class="services">
                     <h2>OUR SERVICES</h2>
                     <div class="text">
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
@@ -100,7 +118,7 @@
                     </div>
                     <div class="greenLine"></div>
                 </div>
-                <div class="portfolio">
+                <div id="portfolio" class="portfolio">
                     <h2>THE PORTFOLIO</h2>
                     <div class="text">
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
@@ -143,7 +161,7 @@
                         <a class="button" href=""> Start Project </a>
                     </div>
                 </div>
-                <div class="team">
+                <div id="team" class="team">
                     <h2>THE TEAM</h2>
                     <div class="text">
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
@@ -171,11 +189,11 @@
                     </div>
                 </div>
             </div>
-            <div class="footer">
+            <div id="footer" class="footer">
                 <div class="footerText">
                     Already Loved Us? Let`s talk!
                 </div>
-                <span class="footerButton">
+                <span id="contact" class="footerButton">
                     <a href=""> Contact Us </a>
                 </span>
             </div>
