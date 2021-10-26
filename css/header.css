@@ -37,6 +37,7 @@
     left: -36vw;
     background-color: var(--mainColor);
     color: var(--mainColorText);
+    border-radius: 25vmin;
 }
 .ipad {
     display: inline-block;
@@ -150,7 +151,7 @@ h1 {
 
 @keyframes anim {
     50% {
-        color: var(--mainColor_green);
+        color: var(--mainColor_green);        
     }
     100% {
         color: var(--mainColor);

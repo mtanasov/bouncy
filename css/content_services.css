@@ -73,22 +73,33 @@
 .schedule {
     display: flex;
     width: 80vmin;
-    height: 100%;
+    height: 90%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.schedule svg {
+    width: 166px;
+    height: 166px;
+    
+}
+
+.oneCircleGraph2 {
+    stroke-dasharray: 412;
+}
+.oneCircleGraph4 {
+    stroke-dasharray: 352;
+}
+.oneCircleGraph6 {
+    stroke-dasharray: 320;
 }
 
 .schedule div {
     display: inline-block;
     height: 18vh;
     width: 18vh;
-    text-align: center;
-    background: radial-gradient(at top red 20%, black 80%);
-    border: 7px var(--mainColor_green) solid;
-    border-radius: 12vmin;
-    font-size: 25px;
 }
+
 .greenLine {
     display: inline-block;
     height: 0.4vmin;
@@ -97,17 +108,69 @@
     position: relative;
     bottom: -15vh;
 }
-
-
-.schedule div::before {}
-.schedule div::after {}
-
-.schedule:nth-child(1) {}
-.schedule:nth-child(1)::before {}
-.schedule:nth-child(1)::after {}
-.schedule:nth-child(2) {}
-.schedule:nth-child(2)::before {}
-.schedule:nth-child(2)::after {}
-.schedule:nth-child(3) {}
-.schedule:nth-child(3)::before {}
-.schedule:nth-child(3)::after {}
+.schedule1:nth-child(1)::before {
+    content: "Branding";
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: 22vh;
+    left: 2.2vw;
+    font-family: "Roboto";
+    color: var(--mainColorH);
+    text-align: center;
+}
+.schedule1:nth-child(1)::after {
+    content: "80%";
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: -10vh;
+    left: 3.7vw;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: var(--mainColorH);
+}
+.schedule2::before {
+    content: "Web Design";
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: 22vh;
+    left: 2.2vw;
+    font-family: "Roboto";
+    color: var(--mainColorH);
+    text-align: center;
+}
+.schedule2::after {
+    content: "75%";
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: -10vh;
+    left: 3.7vw;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: var(--mainColorH);
+}
+.schedule3::before {
+    content: "UI/UX";
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: 22vh;
+    left: 3.2vw;
+    font-family: "Roboto";
+    color: var(--mainColorH);
+    text-align: center;
+}
+.schedule3::after {
+    content: "60%";
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: -10vh;
+    left: 3.7vw;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: var(--mainColorH);
+}
