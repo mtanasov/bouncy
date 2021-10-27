@@ -41,3 +41,37 @@
     
 
 }
+
+@media all and (orientation: landscape) and (min-width: 1400px) and (max-width: 1660px) { 
+    .hello h2 {
+        top: -23vmin;
+    }
+    .header {
+        max-height: 87.5vmin;
+    }
+    .menu {
+        max-width: 62vmin;
+    }
+   .details {
+       height: 65vmin;
+   }
+   .detailsText3 {
+       top: 14vh;
+   }
+   .image2,.image3 {
+        height: 73%;
+   }
+   .featured {
+    min-height: 84.2vh;
+   }
+   .featured_image {
+       top: 15.2vh;
+       min-height: 43vmin;
+   }
+   .image1,.image2,.image3 {
+    min-height: 42vmin;
+   }
+   .portfolioFooter {
+       width: 71.5vw;
+   }
+}

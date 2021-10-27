@@ -5,7 +5,7 @@
     align-items: center;
     background-color:  hsl(0deg 0% 100%);
     color: hsl(240deg 2% 65%);
-    height: 92.5vh;
+    min-height: 89.5vh;
 }
 .featuredText {
     display: inline-block;
@@ -18,7 +18,8 @@
 
 .featured_image {
     display: flex;
-    height: 52vh;
+    /*height: 52vh;*/
+    min-height: 49vmin;
     width: 100vw;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -35,7 +36,7 @@
 }
 .image1 {
     width: 50vw;
-    background-size: 100% auto;
+    background-size: 100%;
 }
 .image1 {
     background-image: url(../image/featured/one.jpg);    
@@ -83,7 +84,7 @@
 .image3 {
     background-image: url(../image/featured/three.jpg);
     background-size: 138% auto;
-    background-position: -150px 0;
+    background-position: -144px 0;
 }
 
 .featuredFooter { /*задать размытие на кеды*/

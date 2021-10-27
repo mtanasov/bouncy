@@ -10,7 +10,7 @@
 .details {
     background-color: hsl(0deg 0% 95%);
     color: hsl(240deg 2% 65%);
-    height: 80vh;
+    height: 65vh;
 }
 
 h2 {
@@ -37,18 +37,16 @@ h2 {
     text-align: center;
 }
 .detailsText2 {
-    top: 35vh;
-    left: -31vw;
+    top: 28vh;
+    left: -26vw;
     width: 18vw;
+    font-size: 16px;
 }
 .detailsText3 {
-    width: 29vw;
-    top: 26vh;
+    width: 24.8vw;
+    top: 18vh;
     left: 11vw;
-}
-.detailsText2,.detailsText3 {
-    font-size: 16px;
-   
+    font-size: 14px;
 }
 .detailsIcon {
     position: relative;
@@ -61,7 +59,7 @@ h2 {
 h3 {
     position: relative;
     top: 27vh;
-    width: 80vw;
+    width: 70vw;
     font-size: 20px;
     color: var(--mainColorH);
 }

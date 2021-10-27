@@ -1,5 +1,5 @@
 html, body {
-    width: 100%;
+    width: 100vmax;
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -61,3 +61,4 @@ body {
      color: var(--mainColor_green);
      font-weight: 700;
  }
+ 

@@ -3,7 +3,7 @@
     flex-direction: column;
     position: relative;
     width: 100vw;
-    height: 148.8vh;
+    height: 160vh;
     align-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
@@ -59,7 +59,7 @@
 .imgGal:hover::before {
     content: "TITLE HERE";
     display: inline-block;
-    width: 9vw;
+    min-width: 20vmin;
     height: 2vh;
     background-color: hsl(0deg 0% 0% / 60%);
     text-align: center;
@@ -70,7 +70,7 @@
     color: var(--mainColor_green);
     position: relative;
     top: 6vh;
-    left: 4.5vmin;
+    left: 3.7vmin;
     filter: brightness(150%);
 }
 .imgGal:hover {
@@ -80,7 +80,7 @@
     content: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium";
     color: var(--mainColorText);
     display: inline-block;
-    width: 11vw;
+    width: 22vmin;
     position: relative;
     top: 8vh;
     left: 2vw;
@@ -177,7 +177,7 @@
     color: var(--mainColor);
 }
 .portfolioFooter .text {
-    width: 30vw;
+    width: 40vw;
     height: 3vh;
     color: var(--mainColor);
     text-align: center;
