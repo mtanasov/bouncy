@@ -80,7 +80,7 @@
 }
 .schedule svg {
     width: 166px;
-    height: 166px;
+    height: 250px;
     
 }
 
@@ -96,19 +96,36 @@
 
 .schedule div {
     display: inline-block;
-    height: 18vh;
-    width: 18vh;
+    height: 250px;
+    width: 166px;
 }
 
 .greenLine {
     display: inline-block;
-    height: 0.4vmin;
+    height: 4px;
     width: 100%;
     background-color: var(--mainColor_green);
     position: relative;
     bottom: -15vh;
 }
-.schedule1:nth-child(1)::before {
+
+.svgTextGr1 {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.schedule1:nth-child(1)::before {
     content: "Branding";
     color: black;
     display: inline-block;
@@ -174,3 +191,4 @@
     font-weight: 700;
     color: var(--mainColorH);
 }
+*/

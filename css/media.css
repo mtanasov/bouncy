@@ -1,0 +1,245 @@
+
+@media all and (orientation: landscape) and (min-width: 1400px) and (max-width: 1660px) { 
+    /*.hello h2 {
+        top: -23vmin;
+    }*/
+    .header {
+       
+    }
+    .menu {
+        max-width: 62vmin;
+    }
+   .details {
+       height: 65vmin;
+   }
+   .detailsText3 {
+       top: 14vh;
+   }
+   .image2,.image3 {
+        height: 73%;
+   }
+   .featured {
+    min-height: 84.2vh;
+   }
+   .featured_image {
+       top: 15.2vh;
+       min-height: 43vmin;
+   }
+   .image1,.image2,.image3 {
+    min-height: 42vmin;
+   }
+   .portfolioFooter {
+       width: 71.5vw;
+   }
+}
+@media all and (max-width: 1399px) and (min-height: 870px) and (orientation: landscape) {
+    .detailsText1 {
+        width: 33%;
+    }
+    .detailsText2 {
+        top: 22vh;
+    }
+    .detailsText3 {
+        top: 9.5vh;
+        width: 28.8vw;
+    }
+    .detailsIcon {
+        top: 16vh;
+    }
+    h3 {
+        top: 21vh;
+    }
+    .menu {
+        right: 7vmin;
+    }
+    .schedule {
+        position: relative;
+        top: 5vmin ;
+    }
+}
+@media all and (min-height: 650px) and (max-height: 869px) and (min-width: 1288px) and (orientation: landscape) {
+    .detailsText1 {
+        width: 33%;
+        top: 5vmin;
+    }
+    .detailsIcon {
+        top: 9vmin;  
+    }
+    h3 {
+        top: 13vh;
+    }
+    .detailsText2 {
+        top: 13vh;
+    }
+    .detailsText3 {
+        top: 0vh;
+        width: 40vw;
+    }
+    .schedule {
+        height: 120%;
+        top: 1vmin;
+    }
+    .iconservice {
+        left: 6vw;
+    }
+    .titleGraph {
+        right: 10vw;
+    }
+    .graphDesText2 {
+        right: 7vw;
+    }
+    .graphDesText {
+        right: 10vw;
+    }
+    .ourService3in1 {
+        justify-content: space-between;
+        width: 95vw;
+    }
+    .oneCircleGraph1 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph2 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph3 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph4 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph5 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph6 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph2 {
+        stroke-dasharray: 320;
+    }
+    .oneCircleGraph4 {
+        stroke-dasharray: 295;
+    }
+    .oneCircleGraph6 {
+        stroke-dasharray: 270;
+    }
+    .scrol {
+        top: -8vmin;
+    }
+    .portfolioFooter .text {
+        width: 44vw;
+    }
+    .button {
+        width: 10vw;
+        padding-bottom: 1vmin;
+    }
+    .services {
+        height: 62vh;
+    }
+    .greenLine {
+        bottom: -12vh;
+    }
+}
+@media all and (max-width: 1287px) {
+    .detailsText1 {
+        width: 33%;
+        top: 6vh;
+    }
+    .detailsIcon {
+        top: 10vh;
+    }
+    h3 {
+        top:10vh;
+    }
+    .detailsText2 {
+        top: 8vh;
+    }
+    .detailsText3 {
+        top: -14vh;
+    }
+    .image3 {
+        background-position: -134px 0;
+    }
+    .oneCircleGraph1 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph2 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph3 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph4 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph5 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph6 {
+        cx: 83px;
+        cy: 83px;
+        r: 60px;
+    }
+    .oneCircleGraph2 {
+        stroke-dasharray: 320;
+    }
+    .oneCircleGraph4 {
+        stroke-dasharray: 295;
+    }
+    .oneCircleGraph6 {
+        stroke-dasharray: 270;
+    }
+    .ourService3in1 {
+        justify-content: space-between;
+    }
+    .titleGraph {
+        left: -14vw;
+    }
+    .graphDesText {
+        left: -14vw;
+    }
+    .graphDesText2 {
+        left: -8vw;
+    }
+    .schedule {
+        justify-content: center;
+        align-items: normal;
+    }
+    .portfolioFooter .text {
+        width: 50vw;
+    }
+    .button {
+        width: 9vw;
+        padding-bottom: 1vmin;
+    }
+    .scrol {
+        top: -10vh;
+    }
+    .services {
+        height: 62vh;
+    }
+    .greenLine {
+        bottom: -12vh;
+    }
+}

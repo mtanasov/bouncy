@@ -170,6 +170,7 @@
     height: 20vh;
     width: 56.5vw;
     background-image: url(../image/Layer\ 101.png);
+    background-size: 100% 100%;
     flex-direction: column;
     align-items: center;
 }

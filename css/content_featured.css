@@ -36,7 +36,7 @@
 }
 .image1 {
     width: 50vw;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 .image1 {
     background-image: url(../image/featured/one.jpg);    
@@ -60,7 +60,7 @@
 }
 .image2 {
     background-image: url(../image/featured/two.jpg);
-    background-size: 157% auto;
+    background-size: 157% 100%;
     background-position: -150px 0;
     position: relative;
 }
@@ -83,8 +83,8 @@
 }
 .image3 {
     background-image: url(../image/featured/three.jpg);
-    background-size: 138% auto;
-    background-position: -144px 0;
+    background-size: 139% 100%;
+    background-position: -138px 0;
 }
 
 .featuredFooter { /*задать размытие на кеды*/
@@ -94,7 +94,7 @@
     height: 17vh;
     width: 100vw;
     background-image: url(../image/featured/locations.png);
-    background-size: auto 100%;
+    background-size: 100% 100%;
 }
 .featuredFooter:hover {
     background: var(--mainColor_green);
