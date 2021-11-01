@@ -86,7 +86,8 @@
         right: 10vw;
     }
     .graphDesText2 {
-        right: 7vw;
+        right: -12vw;
+        top: -8vh;
     }
     .graphDesText {
         right: 10vw;
@@ -166,7 +167,7 @@
         top: 8vh;
     }
     .detailsText3 {
-        top: -14vh;
+        top: -12vh;
     }
     .image3 {
         background-position: -134px 0;
@@ -214,13 +215,15 @@
         justify-content: space-between;
     }
     .titleGraph {
-        left: -14vw;
+        left: -11vw;
+
     }
     .graphDesText {
-        left: -14vw;
+        left: -11vw;
     }
     .graphDesText2 {
-        left: -8vw;
+        left: 11vw;
+        top: -8vh;
     }
     .schedule {
         justify-content: center;
