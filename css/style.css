@@ -38,6 +38,10 @@ body {
         left: -100vw;
     }
 }
+.sizeSVG {
+    width: 100%;
+    height: 100%;
+}
 .loadAnimate svg {
     width: 100vw;    
     height: 100vh;
