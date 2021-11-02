@@ -58,20 +58,22 @@
 }
 .imgGal:hover::before {
     content: "TITLE HERE";
-    display: inline-block;
+    display: flex;
     min-width: 20vmin;
-    height: 2vh;
+    height: 4vh;
     background-color: hsl(0deg 0% 0% / 60%);
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "SourceSans";
     font-weight: 700;
     letter-spacing: 9px;
     color: var(--mainColor_green);
     position: relative;
-    top: 6vh;
-    left: 3.7vmin;
+    top: 3vh;
+    left: 0vmin;
     filter: brightness(150%);
+    align-items: center;
+    justify-content: space-evenly;
 }
 .imgGal:hover {
     filter: brightness(70%);
@@ -82,10 +84,10 @@
     display: inline-block;
     width: 22vmin;
     position: relative;
-    top: 8vh;
+    top: 3vh;
     left: 2vw;
     font-family: "OpenSans";
-    font-size: 14px;
+    font-size: 12px;
     filter: brightness(180%);
 }
 .image11 {

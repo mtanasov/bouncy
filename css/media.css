@@ -152,7 +152,7 @@
         bottom: -12vh;
     }
 }
-@media all and (max-width: 1287px) {
+@media all and (min-width: 1000px) and (max-width: 1287px) and (orientation: landscape) {
     .detailsText1 {
         width: 33%;
         top: 6vh;
@@ -167,10 +167,13 @@
         top: 8vh;
     }
     .detailsText3 {
-        top: -12vh;
+        top: -10vh;
+    }
+    .image2 {
+        background-position: -110px 1px;
     }
     .image3 {
-        background-position: -134px 0;
+        background-position: -90px 1px;
     }
     .oneCircleGraph1 {
         cx: 83px;
@@ -216,21 +219,20 @@
     }
     .titleGraph {
         left: -11vw;
-
     }
     .graphDesText {
         left: -11vw;
     }
     .graphDesText2 {
         left: 11vw;
-        top: -8vh;
+        top: -9vh;
     }
     .schedule {
         justify-content: center;
         align-items: normal;
     }
     .portfolioFooter .text {
-        width: 50vw;
+        width: 60vw;
     }
     .button {
         width: 9vw;
@@ -245,4 +247,52 @@
     .greenLine {
         bottom: -12vh;
     }
+    .executor {
+        left: 20vw;
+    }
+    .position {
+        left: 18.7vw;
+    }
+    .description {
+        width: 30vw;
+        left: 20vmin;
+    }
+    .branding::after {
+        left: 26.3vmin;
+    }
+    .webDesing::after {
+        left: 24.8vmin;
+    }
+    .ui::after {
+        left: 21vmin;
+    }
+    .menu {
+        width: 550px;
+    }
+    .buttonFeatured {
+        left: 1vw;
+        top: 3.5vh;
+
+    }
+    .iconservice {
+        left: 3vw;
+    }
+}
+@media all and (max-width: 1246px) {
+    .image3 {
+        background-position: -90px 1px;
+    }
+    .image2 {
+        background-position: -110px 1px;
+    }
+    .detailsText3 {
+        width: 42.8vw;
+    }
+    .graphDesText2 {
+        left: -8vw;
+        top: 7vh;
+    }
+}
+@media all and (orientation: portrain) (min-width: 320px) and (max-width: 999px) {
+    
 }

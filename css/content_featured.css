@@ -39,7 +39,8 @@
     background-size: 100% 100%;
 }
 .image1 {
-    background-image: url(../image/featured/one.jpg);    
+    background-image: url(../image/featured/one.jpg);
+    background-position: 0 1px;   
 }
 .image2:hover::before {
     content: "VINTAGE";
@@ -61,7 +62,7 @@
 .image2 {
     background-image: url(../image/featured/two.jpg);
     background-size: 157% 100%;
-    background-position: -150px 0;
+    background-position: -150px 1px;
     position: relative;
 }
 .image3:hover::before {

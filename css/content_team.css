@@ -70,68 +70,21 @@
 }
 .graph {
     display: flex;
-    height: 15.5vh;
-    width: 27vw;
+    height: 102px;
+    width: 400px;
     position: relative;
     top: -17.5vh;
-    right: -20.7vw;
+    right: -27vw;
     flex-direction: column;
     justify-content: space-around;
     align-items: stretch;
 }
-.branding::before {
-    display: inline;
-    content: "BRANDING";
-    height: 1vh;
-    position: relative;
-    top: -2.2vh;
+.graph svg text {
+    font-family: "SourceSans";
 }
-.branding::after {
-    display: inline;
-    content: "80%";
-    height: 1vh;
-    position: relative;
-    top: -2.3vh;
-    left: 43.3vmin;
-}
-.webDesing::before {
-    display: inline;
-    content: "WEB DESING";
-    height: 1vh;
-    position: relative;
-    top: -2.3vh;
-}
-.webDesing::after {
-    display: inline;
-    content: "65%";
-    height: 1vh;
-    position: relative;
-    top: -2.3vh;
-    left: 41.8vmin;
-}
-.ui::before {
-    display: inline;
-    content: "USER INTERFACE";
-    height: 1vh;
-    position: relative;
-    top: -2.3vh;
-}
-.ui::after {
-    display: inline;
-    content: "75%";
-    height: 1vh;
-    position: relative;
-    top: -2.3vh;
-    left: 39vmin;
-}
-.branding {
-    background-image: linear-gradient(90deg,var(--mainColor_green) 80%, var(--mainColor) 20%);
-}
-.webDesing {
-    background-image: linear-gradient(90deg,var(--mainColor_green) 65%, var(--mainColor) 35%);
-}
-.ui {
-    background-image: linear-gradient(90deg,var(--mainColor_green) 75%, var(--mainColor) 25%);
+.graph svg {
+    width: 450px;
+    height: 102px;
 }
 .scrol {
     display: inline-block;
