@@ -2,8 +2,8 @@ html, body {
     width: 100vmax;
     height: 100%;
     scroll-behavior: smooth;
+    animation: 0.2s scrollhidden 6.75s forwards;
 }
-
 * {
     cursor: url(../image/cursor.png), pointer;
     background-repeat: no-repeat;
@@ -16,8 +16,177 @@ body {
     --mainColorText: hsl(240deg 1% 58%);
     --mainColorTextBold: hsl(240deg 1% 45%);
     margin: 0;
-    overflow-x:hidden;
+    overflow:hidden;
 }
+
+@keyframes scrollhidden {
+    100% {overflow-y: visible;}
+}
+.loadAnimate{
+    display: inline-block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    animation: 0.35s loadAnim 6.4s ease-in forwards;
+}
+@keyframes loadAnim {
+    100% {
+        display: none;
+        height: 0vh;
+        width: 0vw;
+        left: -100vw;
+    }
+}
+.loadAnimate svg {
+    width: 100vw;    
+    height: 100vh;
+    background-color: hsl(0deg 0% 100%);
+}
+.loadAnimate svg text {
+    font-family: "BigJohn";
+    font-size: 250px;
+    font-weight: 700;
+}
+.red {
+    stroke-dasharray: 2550;
+    stroke-dashoffset: -670;
+    animation: 1.2s runRightRed 5.2s forwards ease-in-out;
+}
+@keyframes runRightRed {
+    0% {
+        stroke-dasharray: 2550;
+        stroke-dashoffset: -670;
+    }
+    0.01%{
+        stroke-dasharray: 20;
+        
+    }
+    100% {
+        stroke-dasharray: 2550;
+        stroke-dashoffset: 1880;
+    }    
+}
+
+.orange{
+    stroke-dasharray: 2080;
+    stroke-dashoffset: -980;
+    animation: 0.9s runLeftOrange 4.3s ease forwards alternate-reverse;
+}
+@keyframes runLeftOrange {
+    0% {
+        stroke-dasharray: 2080;
+        stroke-dashoffset: 1100;
+    }
+    0.01%{
+        stroke-dasharray: 20;
+        
+    }
+    100% {
+        stroke-dasharray: 2080;
+        stroke-dashoffset: -980;
+    }  
+}
+
+.yellow{
+    stroke-dasharray: 1940;
+    stroke-dashoffset: -960;
+    animation: 0.9s runRightYellow 3.4s forwards ease;
+
+}
+@keyframes runRightYellow {
+    0% {
+        stroke-dasharray: 1940;
+        stroke-dashoffset: -960;
+    }
+    0.01%{
+        stroke-dasharray: 25;
+        
+    }
+    100% {
+        stroke-dasharray: 1940;
+        stroke-dashoffset: 990;
+    }
+}
+
+.green{
+    stroke-dasharray: 1760;
+    stroke-dashoffset: -990;
+    animation: 0.9s runLeftGreen 2.5s linear forwards alternate-reverse;
+}
+@keyframes runLeftGreen {
+    0% {
+        stroke-dasharray: 1760;
+        stroke-dashoffset: 770;
+    }
+    0.01%{
+        stroke-dasharray: 20;
+        
+    }
+    100% {
+        stroke-dasharray: 1760;
+        stroke-dashoffset: -990;
+    }
+}
+.lightblue{
+    stroke-dasharray: 1610;
+    stroke-dashoffset: -980;
+    animation: 0.9s runRightlightBlue 1.6s ease forwards;
+}
+@keyframes runRightlightBlue {
+    0% {
+        stroke-dasharray: 1610;
+        stroke-dashoffset: -980;
+    }
+    0.01%{
+        stroke-dasharray: 20;        
+    }
+    100% {
+        stroke-dasharray: 1610;
+        stroke-dashoffset: 630;
+    }    
+}
+
+.blue{
+    stroke-dasharray: 1450;
+    stroke-dashoffset: -980;
+    animation: 0.9s runLeftBlue 0.7s ease alternate-reverse forwards;
+}
+@keyframes runLeftBlue {
+    0% {
+        stroke-dasharray: 1450;
+        stroke-dashoffset: 470;
+    }
+    0.01%{
+        stroke-dasharray: 20;
+        
+    }
+    100% {
+        stroke-dasharray: 1450;
+        stroke-dashoffset: 1920;
+    }
+}
+
+.violet{
+    stroke-dasharray: 1290;
+    stroke-dashoffset: -990;
+    animation: 0.7s runRightViolet  ease forwards;
+}
+@keyframes runRightViolet {
+    0% {
+        stroke-dasharray: 1290;
+        stroke-dashoffset: -990;
+    }
+    0.01%{
+        stroke-dasharray: 20;        
+    }
+    100% {
+        stroke-dasharray: 1290;
+        stroke-dashoffset: 300;
+    }    
+}
+
+
 ::selection {
     background: var(--mainColor_green);
 }
