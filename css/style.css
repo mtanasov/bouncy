@@ -27,7 +27,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    z-index: 2;
+    z-index: 5;
     animation: 0.35s loadAnim 6.4s ease-in forwards;
 }
 @keyframes loadAnim {

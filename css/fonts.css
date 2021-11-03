@@ -9,7 +9,7 @@
 h3,.graphDesText2,.executor,.description,.menu,.text,.graphDesText,.titleGraph,.footerText,.footerButton a,.button a,.portfolioMenu div,.portfolioFooter .text,.button,.buttonFeatured /*,.detailsText1,.headerText,.featuredText*/ {
     font-family: "OpenSans";
 }
-h1,h2,.position,.branding,.webDesing,.ui {
+h1,h2,.position,.branding,.webDesing,.ui,.btnMenuBurgers a {
     font-family: "SourceSans";    
 }
 .logo {

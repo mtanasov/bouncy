@@ -1,3 +1,79 @@
+#openMenu {
+    display: none;
+}
+#openMenu:checked ~ .menuButton span {
+    transform: rotate(45deg);
+}
+#openMenu:checked ~ .menuButton span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#openMenu:checked ~ .menuButton span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+.menuBurger {
+    height: 1px;
+    width: 1px;
+}
+
+.btnMenuBurgers {
+    visibility: hidden;
+    display: flex;
+    background-color: grey;
+    height: 70vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    z-index: 2;
+    justify-content: space-evenly;
+    
+}
+.btnMenuBurgers a {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--mainColor);
+    font-weight: 700;
+    border: 2px var(--mainColor) solid;
+    border-radius: 50px;
+    padding: 5px 25px;
+}
+#openMenu:checked ~ .btnMenuBurgers {
+    visibility: visible;
+}
+.menuButton {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+    visibility: hidden;
+    background-color: var(--mainColor_green);
+    justify-content: center;
+}
+.menuButton span,.menuButton span::before,.menuButton span::after {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: var(--mainColor);
+}
+.menuButton span::before {
+    content: "";
+    top: -8px;
+}
+.menuButton span::after {
+    content: "";
+    top: 8px;
+}
+
+
+
 .menu  input {
     display: none;
 }

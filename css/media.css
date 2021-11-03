@@ -1,5 +1,15 @@
+@media all and (max-width: 1900px) {
+    .loadAnimate {
+        display: none;
+        animation: none;
+    }
+    html,body {
+        animation: none;
+        overflow-y: visible;
+    }
+}
 
-@media all and (orientation: landscape) and (min-width: 1400px) and (max-width: 1660px) { 
+@media (orientation: landscape) and (min-width: 1400px) and (max-width: 1660px) { 
     /*.hello h2 {
         top: -23vmin;
     }*/
@@ -32,7 +42,7 @@
        width: 71.5vw;
    }
 }
-@media all and (max-width: 1399px) and (min-height: 870px) and (orientation: landscape) {
+@media (max-width: 1399px) and (min-height: 870px) and (orientation: landscape) {
     .detailsText1 {
         width: 33%;
     }
@@ -57,7 +67,7 @@
         top: 5vmin ;
     }
 }
-@media all and (min-height: 650px) and (max-height: 869px) and (min-width: 1288px) and (orientation: landscape) {
+@media (min-height: 650px) and (max-height: 869px) and (min-width: 1288px) and (orientation: landscape) {
     .detailsText1 {
         width: 33%;
         top: 5vmin;
@@ -152,7 +162,7 @@
         bottom: -12vh;
     }
 }
-@media all and (min-width: 1000px) and (max-width: 1287px) and (orientation: landscape) {
+@media (min-width: 1000px) and (max-width: 1287px) and (orientation: landscape) {
     .detailsText1 {
         width: 33%;
         top: 6vh;
@@ -278,7 +288,7 @@
         left: 3vw;
     }
 }
-@media all and (max-width: 1246px) {
+@media (max-width: 1246px) {
     .image3 {
         background-position: -90px 1px;
     }
@@ -293,6 +303,64 @@
         top: 7vh;
     }
 }
-@media all and (orientation: portrain) (min-width: 320px) and (max-width: 999px) {
+@media (min-width: 310px) and (max-width: 999px) {
+    .menuButton {
+        visibility: visible;
+    }
+    .menu {
+        visibility: hidden;
+    }
+    .detailsText1 {
+        width: 86%;
+        top: 6vh;
+    }
+    .detailsIcon {
+        top: 9vh;
+    }
+    h3 {
+        top: 9vh;
+        width: 36%;
+        text-align: center;        
+    }
+    .detailsText2,.detailsText3 {
+        text-align: center;
+        left: 0;
+    }
+    .detailsText3 {
+        top: 11vh;
+        width: 70vw;
+    }
+    .detailsText2 {
+        top: 9vh;
+        width: 60vw;
+    }
     
+    .featured_image {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 100%;
+        top: 8vh;
+    }
+    .image2,.image3 {
+        width: 50%;
+        background-position-y: 0px;      
+    }
+    .image2 {
+        background-size: 165% 100%;
+    }
+    .featuredFooter {
+        height: 8vh;
+    }
+    .featuredFooter .text {
+        width: 100%;
+        top: 0;
+        font-size: 11px;
+    }
+    .buttonFeatured {
+        font-size: 14px;
+        left: 40vw;
+        top: -8px;
+        padding: 1vh 1.2vh;
+    }
 }
