@@ -107,13 +107,13 @@
 } 
 .hello { 
     display: none;
-    width: 122vmin;
-    height: 47vmin;
+    width: 1220px;
+    height: 470px;
     top: 15vh;
     background-color: var(--mainColor);
     color: var(--mainColorText);
     border-radius: 25vmin;
-    left: calc(50% - 70vmin);
+    left: ;
 }
 .ipad {
     display: inline-block;
@@ -235,7 +235,7 @@ h1 {
     }
 }
 
-@keyframes h2 {
+/*@keyframes h2 {
     100% {
         color: var(--mainColorTextBold);
     }
@@ -244,4 +244,4 @@ h1 {
     100% {
         filter: blur(0);
     }
-}
+}*/

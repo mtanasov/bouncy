@@ -1,14 +1,3 @@
-@media all and (max-width: 1900px) {
-    .loadAnimate {
-        display: none;
-        animation: none;
-    }
-    html,body {
-        animation: none;
-        overflow-y: visible;
-    }
-}
-
 @media (orientation: landscape) and (min-width: 1400px) and (max-width: 1660px) { 
     /*.hello h2 {
         top: -23vmin;
